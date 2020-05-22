@@ -140,8 +140,8 @@ p {
   height: 100%;
   -webkit-transform-origin: right top;
   transform-origin: right top;
-  -webkit-transform: rotate(4deg);
-  transform: rotate(4deg);
+  -webkit-transform: rotate(1deg);
+  transform: rotate(1deg);
   box-shadow: 0 0 44px -8px rgba(0, 0, 0, 0.2);
   margin: 0;
   padding: 0;
@@ -154,7 +154,7 @@ p {
   background-color: #f8f8f8;
   color: #f8f8f8;
   width: 100%;
-  margin-top: -160px;
+  margin-top: -250px;
   position: relative;
   height: auto;
 }
