@@ -1,0 +1,374 @@
+/*GLOBAL*/
+/*General tags*/
+html {
+  font-size: 100%;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  line-height: 1.7rem;
+}
+
+h1 {
+  font-family: 'Roboto';
+  font-size: 4rem;
+  line-height: 1;
+  letter-spacing: 0.03rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-size: 2.5rem;
+  line-height: 1;
+  letter-spacing: 0.03rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Roboto';
+  line-height: 1;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.8rem;
+  letter-spacing: 0.03rem;
+}
+
+h4 {
+  font-family: 'Roboto';
+  color: #9a9a9a;
+  font-size: 1.1rem;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: #383838;
+  letter-spacing: 0.08rem;
+  font-style: normal;
+}
+
+
+/* Containers */
+.content-container {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+
+
+/* Sections */
+
+#top-section {
+  margin-top: 0px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-image: url(../images/banner-image.jpg);
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+}
+
+#top-section .content-container {
+  padding-top: 200px;
+  height: 841px;
+  margin: 0 auto;
+}
+
+.title-container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+  height: 585px;
+}
+
+.top-title h2 {
+  margin-top: 20px;
+}
+
+.title-divider {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  border-color: #000000;
+  left: 0;
+  right: 0;
+  display: block;
+  top: 50%;
+  color: #000000;
+  background-color: #000000;
+  top: 50%;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+.sub-title p {
+  text-align: center;
+  line-height: 1.8em;
+}
+
+
+.diagonal-border {
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.diagonal-border-inner {
+  background-color: #f8f8f8;
+  right: 0;
+  width: 110%;
+  height: 100%;
+  -webkit-transform-origin: right top;
+  transform-origin: right top;
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+  box-shadow: 0 0 44px -8px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+
+#card-section {
+  background-color: #f8f8f8;
+  color: #f8f8f8;
+  width: 100%;
+  margin-top: -160px;
+  position: relative;
+  height: auto;
+}
+
+.card {
+  background-color: #f8f8f8;
+  color: #f8f8f8;
+}
+
+.card-container {
+  margin-top: -50px;
+  padding-bottom: 40px;
+}
+
+.card.h-100 {
+  border: none;
+}
+
+.card-title {
+  margin-bottom: 1.1em;
+  color: #000000;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.card-footer {
+  background-color: #f8f8f8;
+  color: #f8f8f8;
+  border-top: none;
+  margin-bottom: 10px;
+}
+
+.card-margin {
+  margin-bottom: 70px;
+}
+
+
+.card-double {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card-body {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.btn-outline-dark {
+  border-width: 2px;
+}
+
+
+#aboutus-section {
+  background-color: #ffffff;
+  position: relative;
+}
+
+
+#aboutus-section img {
+  width: 100%;
+}
+
+#aboutus-section h1 {
+  font-size: 3rem;
+}
+
+
+#aboutus-section .title-container {
+  margin-top: 50px;
+  width: 100%;
+}
+
+
+#contact-section {
+  position: relative;
+  background-color: #f8f8f8;
+}
+
+#contact-section h1 {
+
+  margin-top: 70px;
+  font-size: 3rem;
+}
+
+#contact-section .title-divider {
+
+  margin-bottom: 90px;
+}
+
+
+#thankyou_message {
+  display: none;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  font-size: 1rem;
+  line-height: 2;
+  letter-spacing: 0.1rem;
+}
+
+
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 20px;
+}
+
+.form-group input.form-control {
+  height: auto;
+}
+
+.form-group textarea.form-control {
+  height: 248px;
+}
+
+.form-control:focus {
+  border-color: #D64029;
+  box-shadow: none;
+}
+
+section#-webkit-input-placeholder {
+  text-transform: uppercase;
+
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#-moz-placeholder {
+  text-transform: uppercase;
+
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#-moz-placeholder {
+  text-transform: uppercase;
+
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#-ms-input-placeholder {
+  text-transform: uppercase;
+
+  font-weight: 700;
+  color: #bbb;
+}
+
+#gform button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  height: 100px;
+  background-color: #000000;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+.footer-text {
+  text-align: left;
+  width: 100%;
+  padding-top: 35px;
+}
+
+@media (max-width:767px) {
+
+  .title-container {
+    width: 77%;
+  }
+
+  h1 {
+
+    font-size: 3rem;
+
+  }
+
+  h2 {
+
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width:490px) {
+
+  .title-container {
+    width: 95%;
+  }
+
+  .title-divider {
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+  }
+}
+
+@media (max-width:370px) {
+
+  p {
+    font-size: 1.2rem;
+  }
+
+}
