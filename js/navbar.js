@@ -11,12 +11,14 @@ function toggleHamburger() {
 
   // Toggle the element classname with active
   if (element.classList) {
-    element.classList.toggle(name);
-
+    
     if (element.classList.contains(name)) {
-      isActive = true;
-    } else {
+
+      element.classList.remove(name);
       isActive = false;
+    } else {
+      element.classList.add(name);
+      isActive = true;
     }
   } else {
     // For IE9
@@ -38,10 +40,10 @@ function toggleHamburger() {
     fadeIn(hamburgerBackgroundViewName);
     fadeIn(hamburgerViewName);
     fadeOutWithoutHide(navBG);
-
-    setTimeout(function () {
-      setNonBurgerNavItemsBackground();
-    }, 500);
+    setNonBurgerNavItemsBackground();
+    // setTimeout(function () {
+    //   setNonBurgerNavItemsBackground();
+    // }, 500);
 
   } else {
     fadeOut(hamburgerViewName);
