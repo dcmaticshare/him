@@ -8,6 +8,7 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  
 }
 
 body {
@@ -261,7 +262,10 @@ p {
   letter-spacing: 0.1rem;
 }
 
-
+form {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .form-group {
   margin-bottom: 25px;
@@ -320,7 +324,9 @@ section#-ms-input-placeholder {
 
 footer {
   height: 100px;
+  line-height: 100px;
   background-color: #000000;
+  overflow-y: hidden;
 }
 
 footer p {
@@ -328,9 +334,9 @@ footer p {
 }
 
 .footer-text {
-  text-align: left;
-  width: 100%;
-  padding-top: 35px;
+  text-align: center;
+  height: 100%;
+  
 }
 
 @media (max-width:767px) {
